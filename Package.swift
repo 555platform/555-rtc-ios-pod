@@ -6,8 +6,6 @@ import PackageDescription
 let version = "1.3.4"
 let repoURL = "https://github.com/555platform/555-rtc-ios-pod/releases/download/spm-test"
 
-// IMPORTANT: Update this checksum each time you upload a new Rtc555Sdk.zip release.
-// Generate it by running: swift package compute-checksum Rtc555Sdk.zip
 let rtc555SdkChecksum = "746d22a66773d3b9058924fdefa80eafb09ddf24bd3208f339a24e1476f02cfa"
 
 let package = Package(
